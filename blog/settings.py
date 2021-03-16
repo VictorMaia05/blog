@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['blog-informativo.herokuapp.com', '34.95.206.3']
+ALLOWED_HOSTS = ['blog-informativo.herokuapp.com', 'https://victotm.github.io/blog/']
 
 
 # Application definition
